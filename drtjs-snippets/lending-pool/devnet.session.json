@@ -1,0 +1,30 @@
+{
+    "networkProvider": {
+        "type": "ProxyNetworkProvider",
+        "url": "https://devnet-gateway. numbat.com",
+        "timeout": 5000
+    },
+    "reporting": {
+        "explorerUrl": "https://devnet-explorer. numbat.com",
+        "apiUrl": "https://devnet-api. numbat.com",
+        "outputFolder": "~/reports"
+    },
+    "users": {
+        "individuals": [
+            {
+                "name": "whale",
+                "pem": "~/ numbatsdk/testwallets/latest/users/frank.pem"
+            },
+            {
+                "name": "firstUser",
+                "pem": "~/ numbatsdk/testwallets/latest/users/dan.pem"
+            },
+            {
+                "name": "secondUser",
+                "pem": "~/ numbatsdk/testwallets/latest/users/eve.pem"
+            }
+        ],
+        "groups": [
+        ]
+    }
+}

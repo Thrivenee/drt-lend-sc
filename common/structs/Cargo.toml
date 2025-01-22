@@ -1,0 +1,10 @@
+[package]
+name = "common-structs"
+version = "0.0.0"
+authors = ["Dharitri <contact@dharitri.org>"]
+edition = "2018"
+
+[lib]
+path = "src/model.rs"
+[dependencies.multiversx-sc]
+version = "0.41.0"
